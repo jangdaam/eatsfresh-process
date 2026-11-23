@@ -1,0 +1,7 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#08743f"><title>EatsFresh · 과채류 전처리 공정 분석</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="mast"><a href="./" class="brand">EatsFresh</a><span>생산품질부</span><button class="soft" id="manage">자료 관리</button></div></header>
+<main><section class="hero"><div class="intro"><p>생산품질부 / 식품가공</p><h1>과채류 전처리<br>공정 분석</h1><span>로트별 작업 조건을 비교하고 재처리 결과를 기록하세요.</span></div><div class="photo" role="img" aria-label="세척한 방울토마토를 담은 녹색 수확 상자"></div></section>
+<nav aria-label="공정 업무"><button data-tab="prep">전처리 조건관리</button><button data-tab="wash">세척 공정관리</button><button data-tab="history">재처리 이력관리</button></nav>
+<div class="layout"><aside><div class="list-title"><h2>작업 회차</h2><span id="count"></span></div><label class="visually" for="query">로트 번호 또는 품목 검색</label><input id="query" placeholder="로트 번호 또는 품목 검색" type="search"><div id="lots" aria-label="작업 회차 선택"></div></aside><section id="work"></section></div>
+</main><footer>농업회사법인 (주)잇츠프레시 · 훈련용 공정 기록</footer><dialog id="dialog"><div id="dialog-body"></div><form method="dialog"><button class="soft">닫기</button></form></dialog><div role="status" id="toast"></div><script src="process.js"></script><script src="app.js"></script></body></html>
+
